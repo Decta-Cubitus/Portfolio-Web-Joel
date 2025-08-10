@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #00203f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+#banner{
+    background-image: url("./Imagenes/banner_libreria.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+#banner h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+#catalogo{
+    padding: 20px;
+}
+#catalogo table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#catalogo th, #catalogo td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+#catalogo th{
+    background-color: #f5f5f5;
+}
+
+#ofertas{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+#ofertas article, #recomendados article{
+    background-color: #fff;    
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#ofertas img, #recomendados img{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+#ofertas summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+#recomendados{
+    padding: 20px;
+}
+
+.video_promo{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.video_promo iframe{
+    width: 560px;
+    height: 315px;
+}
+
+footer{
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+

@@ -1,0 +1,107 @@
+/*ESTILOS CSS DEL EJERCICIO 047*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header{
+    background-color: #171051;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.web, footer{
+    margin-left: 25%;
+    padding: 20px;
+}
+nav ul{
+    width: 25%;
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f1f1f1;
+    position: fixed;
+    overflow: auto;
+}
+nav li{
+    display: block;
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+nav a:active, .hover{
+    background-color: #1c1561a8;
+    color: #decb59;
+    font-weight: bold;
+}
+nav a:active{
+    background-color: #171051;
+    color: #decb59;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ID*/
+#bienvenida img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+#nosotros{
+    clear: both;
+    display: table;
+}
+#nosotros img{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    border: 3px solid #171051;
+}
+#modelo{
+    clear: both;
+    display: table;
+    border: 1px solid #171051;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.25);
+}
+#modelo img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.left1, .left2{
+    float: left;
+    margin-right: 20px;
+}
+.right1{
+    float: right;
+    margin-left: 20px;
+}
+#historia{
+    width: 100%;
+    height: auto;
+}
+#contacto{
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #191919;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*ESTILOS EN FOOTER*/

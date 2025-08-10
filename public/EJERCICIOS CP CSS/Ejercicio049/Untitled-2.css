@@ -1,0 +1,11 @@
+.flexible{
+    display: flex;
+}
+.art30{
+    background-color: aqua;
+    flex: 1 1 300px;
+}
+.art70{
+    background-color: blue;
+    flex: 1 1 700px
+}

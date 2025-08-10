@@ -1,0 +1,113 @@
+/*ESTILOS CSS DEL EJERCICIO 043*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #00203f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ENCABEZADOS*/
+
+/*ESTILOS EN ENCABEZADOS*/
+
+/*ESTILOS EN ID*/
+#inicio{
+    background-image: url(Imagenes/banner_libreria.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+#inicio h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+#catalogo{
+    padding: 20px;
+}
+
+#catalogo table{
+    width: 100%;
+    border-collapse: collapse;
+}
+#catalogo td, #catalogo th{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+#catalogo th{
+    background-color: #f2f2f2;
+}
+#ofertas article{
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#ofertas{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+#ofertas article, #recomendados article{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#ofertas img, #recomendados img{
+    width: 40%;
+    height: auto;
+    border-radius: 5px;
+}
+#oferta summary{
+    font-weight: bold;
+    cursor: pointer;
+}
+#recomendados{
+    padding: 20px;
+}
+#audio_libro{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+#audio_libro iframe{
+    width: 560px;
+    height: 315px;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #111111;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+/*ESTILOS EN FOOTER*/

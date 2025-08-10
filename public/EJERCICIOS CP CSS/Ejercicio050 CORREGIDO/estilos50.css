@@ -1,0 +1,127 @@
+body{
+    font-family: "Briem Hand", cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+header{
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 20px;
+}
+.codigo_descuento{
+    background-color: #e2b812;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li{
+    display: inline;
+    margin-bottom: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+header nav ul li a:hover{
+    color: #e2b812;
+    text-decoration: underline;
+}
+#inicio, #sostenible{
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+#inicio{
+    background-image: url("./Imagenes/banner_moda.jpg");
+    padding: 12.5vw 3vw;
+}
+#destacados, #contacto{
+    padding: 20px;
+}
+.sec_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 150px;
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.card h3{
+    margin-top: 0;
+}
+.card p{
+    margin: 5px 0;
+}
+.precio{
+    font-weight: bold;
+    padding: 10px;
+}
+.desc{
+    text-align: justify;
+}
+.oferta{
+    font-style: italic;
+    text-decoration: line-through;
+    color: rgb(173, 38, 38);
+}
+#sostenible{
+    background-image: url("./Imagenes/moda-sostenible.jpg");
+    padding: 100px 0;
+}
+#sostenible article{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#contacto iframe{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: #0d0d0d;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+}
+.foot_logo{
+    flex: 30%;
+    margin-bottom: 30px;
+}
+.foot_logo img{
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.foot_text{
+    flex: 70%;
+}
+
+@media screen and (max-width:900px) {
+    .foot_logo, .foot_text{
+        flex-direction: column;
+    }
+    
+}

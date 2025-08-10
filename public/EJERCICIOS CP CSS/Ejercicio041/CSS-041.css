@@ -1,0 +1,105 @@
+/*ESTILOS CSS DEL EJERCICIO 038*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN CLASS*/
+.lista_enlaces{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.lista_enlaces li{
+    display: inline;
+    margin-right: 20px;
+}
+.enlaces{
+    text-decoration: none;
+    color: #fff;
+}
+.bienvenida{
+    color: #ffffff;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(imagenes/banner.jpg);
+    background-size: cover;
+}
+.destinos{
+    color: #ffffff;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(imagenes/Destinos.jpg);
+    background-size: cover;
+}
+.actividades{
+    color: #ffffff;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: url(imagenes/Aventura.jpg);
+    background-size: cover;
+}
+.consejos{
+    color: #ffffff;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+.lista_consejos{
+    list-style-type: none;
+    padding: 0px;
+}
+.lista_consejos li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.testimonios{
+    color: #ffffff;
+    padding: 100px 0px;
+    text-align: center;
+    background-image: unset;
+    background-size: cover;
+    background-color: #ccc;
+    
+}
+.h1_header{
+    font-size: 24px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN ENCABEZADOS*/
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+}
+h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+} 
+/*ESTILOS EN ENCABEZADOS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    text-align: center;
+    padding: 20px 0px;
+    color: #fff;
+    background-color: #212121;
+}
+/*ESTILOS EN FOOTER*/

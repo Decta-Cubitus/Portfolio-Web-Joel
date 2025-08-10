@@ -1,0 +1,112 @@
+/*ESTILOS CSS DEL EJERCICIO 048*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8e8e8;
+}
+header{
+    background-color: #0e0e0e;
+    color: #fff;
+    padding: 20px;
+}
+header h1{
+    margin: 0 0 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav a:hover{
+    text-decoration: underline;
+    color: #df9c2a;
+    font-weight: bold;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ENLACES*/
+#pag_num{
+    margin-top: 20px;
+    text-align: center;
+}
+#pag_num a{
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #df9c2a;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+a.activos{
+    background-color: #df9c2a;
+    color: #fff;
+    border: #df9c2a;
+}
+a.inferior{
+    background-color: #df9c2a;
+    color: #fff;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+}
+/*ESTILOS EN ENLACES*/
+
+/*ESTILOS EN ID*/
+#blog{
+    background-image: url("Imagenes/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+#cards{
+    margin: 25px;
+    padding: 20px;
+}
+#cards article{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 5px rgba(0,0,0,0.1);
+    width: 90%;
+    margin: 0 auto 25px auto;
+    clear: both;
+    display: table;
+}
+#cards img{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.right{
+    float: right;
+    margin-left: 20px;
+}
+.left{
+    float: left;
+    margin-right: 20px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #0e0e0e;
+    color: #df9c2a;
+    padding: 40px;
+    margin-top: 35px;
+    text-align: center;
+}
+/*ESTILOS EN FOOTER*/

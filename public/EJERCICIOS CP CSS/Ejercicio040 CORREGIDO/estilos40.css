@@ -1,0 +1,77 @@
+/* */
+h1{
+    margin: 0;
+}
+
+.obras h2{
+    margin-top: 0;
+}
+h2{
+    color: #333;
+}
+.obras p{
+    color: #666;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+header{
+    text-align: center;
+    background-color: #313131;
+    color: #fff;
+    padding: 20px;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.obras, .sec_enlaces, .sec_tabla{
+    border: 2px solido #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.obras, .sec_enlaces{
+    margin-bottom: 20px;
+}
+.sec_enlaces ul{
+    list-style-type: none;
+    padding: 0;
+}
+.sec_enlaces li{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border-left: 2px dashed #ccc;
+    border-right: 2px dashed #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+}
+th{
+    background-color: #f5f5f5;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #313131;
+    border-radius: 5px;
+}
+.obras img{
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

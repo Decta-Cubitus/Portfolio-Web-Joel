@@ -1,0 +1,98 @@
+/*ESTILOS CSS DEL EJERCICIO 050*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(./web_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    background-color: #333;
+}
+nav a{
+    color: white;
+    background-color: #333;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    color: black;
+    background-color: #ececec;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN CLASS*/
+.flexible{
+    display: flex;
+    flex-wrap: wrap;
+}
+.web_izq{
+    flex: 20%;
+    background-color: #afafaf;
+    padding: 20px;
+}
+.web_der{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+.web_izq img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+.enlace_ejercicios li{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+article a{
+    background-color: #494949;
+    padding: 5px 10px;
+    border: 1px solid #d89014;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 75px;
+}
+.enlaces a{
+    color: #d89014;
+    text-decoration: none;
+}
+.sec_prin img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN ID*/
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    font-weight: bold;
+}
+/*ESTILOS EN FOOTER*/
+.flexible, nav{
+    @media screen and (max-with:750px)
+    flex-direction: column;
+}

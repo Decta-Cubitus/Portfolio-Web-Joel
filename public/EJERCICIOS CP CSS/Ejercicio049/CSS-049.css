@@ -1,0 +1,131 @@
+/*ESTILOS CSS DEL EJERCICIO 049*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0400ff37;
+}
+header{
+    background-color: #272727;
+    color: #fff;
+    padding: 20px;
+}
+header h1{
+    margin: 0 0 20px 0;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN CLASS*/
+.listas ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.listas li{
+    margin-bottom: 10px;
+}
+.listas li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+.listas li a:hover{
+    background-color: #4b22ffc6;
+}
+.listas li a.activo{
+    background-color: #2200b7;
+    color: #d0be1e;
+    font-weight: bold;
+}
+.contenido_web article, #producto article{
+    clear: both;
+    display: table;
+    border: 1px solid #0e0750;
+    border-radius: 10px;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #f7f7f788;
+}
+.contenido_web article:hover{
+    border: 2px solid #0e0750;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.25);
+    background-color: #f7f7f7d0;
+}
+.contenido_web article h3, .contenido_web article p{
+    text-align: center;
+    color: #333;
+}
+.contenido_web article p{
+    font-weight: medium;
+}
+.contenido_web{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.pescados img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+}
+.alimentos img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+.migas_pan ul{
+    padding: 10px 20px;
+    list-style-type: none;
+    background-color: #eee;
+}
+.migas_pan li{
+    display: inline;
+}
+.migas_pan ul li+li:before{
+    padding: 10px;
+    color: black;
+    content: "/\00a0";
+}
+.migas_pan li a{
+    color: #2200b7;
+}
+.migas_pan li a:hover{
+    font-weight: bold;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN ID*/
+#inicio{
+    background-image: url(Imagenes/banner_inicio.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 125px 0;
+}
+#producto{
+    background-image: url(Imagenes/banner_producto.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 125px 0;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*ESTILOS EN FOOTER*/

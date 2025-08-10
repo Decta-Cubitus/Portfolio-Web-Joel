@@ -1,0 +1,98 @@
+/*EXPLICACION DE QUE HACE ESTE CSS Y A QUE AFECTA */
+
+
+/*SECCIONES PRINCIPALES*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(206, 255, 173, 0.9);
+}
+header{
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+section{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    border-radius: 5px;
+    color: #fff;
+}
+/*SECCIONES PRINCIPALES*/
+
+
+
+
+/*TARJETAS FLORES*/
+.card_flores{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+.card_flores img{
+    width: 70%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.card_flores p{
+    color: #565656;
+}
+
+/*TARJETAS FLORES*/
+
+
+/*ENCABEZADOS / TEXTO*/
+h1{
+    margin: 0;
+    font-size: 3.25vw;
+}
+h2{
+    color: #2d2d2d;
+}
+h3{
+    color: #283025;
+}
+/*ENCABEZADOS / TEXTO*/
+
+
+/*LISTAS*/
+.lista_consejos ul, #lista_herramientas ul{
+    padding: 15px;
+}
+
+#lista_herramientas ul{
+    border-style: dashed;
+    border-width: 3px;
+   /* border-color: black;
+    padding: 15px;
+    border: 3px dashed black; /*ancho,estilo y color*/
+}
+.lista_consejos ul{
+    border-width: 2px;
+    border-style: dotted;
+}
+
+/*LISTAS*/
+

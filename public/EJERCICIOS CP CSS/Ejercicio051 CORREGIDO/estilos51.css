@@ -1,0 +1,89 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url("web_banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+nav{
+   display: flex;
+   background-color: #333; 
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    color: black;
+    background-color: #ececec;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#lateral{
+    flex: 20%;
+    background-color: #afafaf;
+    padding: 20px;
+}
+#principal{
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+#lateral img{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+.ejercicios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.ejercicios article{
+    background-color: #494949;
+    padding: 5px 10px;
+    border: 1px solid #d89014;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 18%;
+}
+.ejercicios article a{
+    color: #d89014;
+    text-decoration: none;
+}
+#principal img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    border-radius: 10px;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width:750px) {
+    nav, main{
+        flex-direction: column;
+    }
+    .ejercicios article{
+        flex: 40%;
+    }
+    
+}

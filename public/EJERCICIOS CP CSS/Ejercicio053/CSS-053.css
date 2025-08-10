@@ -1,0 +1,122 @@
+/*ESTILOS CSS DEL EJERCICIO 053*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #adadad;
+}
+header{
+    background-color: #3d3d3d;
+    color: #fff;
+    padding: 20px;
+    font-family: "Poetsen One", sans-serif;
+}
+header h1{
+    margin: 0;
+    margin-bottom: 15px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #ebcd22;
+    font-style: italic;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ENLACES*/
+/*ESTILOS EN ENLACES*/
+
+/*ESTILOS EN ID*/
+#inicio article{
+    background-image: url("Imagenes/fondo_inicio.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 130px 0;
+    margin: 0;
+    text-align: center;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.cards h2, .cards article{
+    padding: 30px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cards article{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1 1 300px;
+}
+.cards img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.cards h3{
+    margin-top: 0;
+}
+.cards p{
+    margin: 5px 0;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    display: flex;
+    background-color: #181818;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+.foot_logo{
+    flex: 33%;
+    margin-bottom: 25px;
+}
+.foot_logo, img{
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}
+.foot_text{
+    flex: 33%;
+    margin-bottom: 25px;
+}
+.foot_iframe section{
+    flex: 33%;
+}
+.foot_iframe iframe{
+    width: 80%;
+    height: 25vw;
+    display: block;
+    margin: auto;
+}
+/*ESTILOS EN FOOTER*/
+
+@media screen and (max-with:625px){
+    footer, .foot_logo, .foot_text, .foot_iframe{
+        flex-direction: column
+    }
+}

@@ -1,0 +1,123 @@
+/*ESTILOS CSS DEL EJERCICIO 038*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #181818;
+}
+header{
+    text-align: center;
+    background-color: #313131;
+    color: #fff;
+    padding: 20px;
+}
+main{
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ENCABEZADOS*/
+h1{
+    margin: 0;
+}
+h2{
+    color: #333;
+}
+/*ESTILOS EN ENCABEZADOS*/
+
+/*ESTILOS EN IMG*/
+img{
+    width: 75%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/*ESTILOS EN IMG*/
+
+/*ESTILOS EN CLASS*/
+.obras_documento{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.enlaces{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.tabla{
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+   
+}
+.tbody{
+    background-image: url(./Imagenes/Gernica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.obras{
+    margin-top: 0px;
+}
+.descripcion_obras{
+    color: #666;
+    margin-bottom: 0px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN LISTAS*/
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+li{
+    margin-bottom: 10px;
+}
+/*ESTILOS EN LISTAS*/
+
+/*ESTILOS EN TABLAS*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border-left: 2px dashed #ccc;
+    border-right: 2px dashed #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+}
+th{
+    background-color: #ccc;
+}
+/*ESTILOS EN TABLAS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    background-color: #313131;
+    border-radius: 5px;
+}
+/*ESTILOS EN FOOTER*/
+
+
+
+
+
+
+
+
+

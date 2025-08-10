@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #4d4d4d;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+main{
+    background-color: #f2f2f2;
+    width: 80%;
+    margin: 0 auto;
+    padding: 70px 25px;
+}
+header h1{
+    margin: 0;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+nav a.actual{
+    color: #ffcc00;
+    text-decoration: underline;
+}
+#inicio{
+    padding: 20px;
+}
+#catalogo table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+#catalogo th, #catalogo td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+#catalogo th{
+    background-color: #000;
+    color: #fff;
+}
+#ofertas img{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+#servicios article{
+    margin-bottom: 20px;
+    clear: both;
+    display: table;
+}
+#servicios img{
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+    border-radius: 10px;
+}
+#contacto iframe{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #333;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+/*ESTILOS CSS DEL EJERCICIO 052*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: "popins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+    margin: 0 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: #db720f;
+    font-weight: bold;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ID*/
+#inicio, #actual{
+    background-color: #e6e6e6;
+}
+#actual img{
+    margin-top: 20px;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.contenido_web article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contenido_web a, img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.contenido_web h2{
+    margin-bottom: 10px;
+}
+.contenido_Web p{
+    margin-bottom: 20px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #5c5c5c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.foot_log{
+    flex: 30%;
+    margin-bottom: 25px;
+}
+.foot_log img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}
+.foot_text{
+    flex: 70%;
+}
+/*ESTILOS EN FOOTER*/
+
+@media screen and (max-with:600px){
+    nav ul{
+        flex-direction: column;
+    }}

@@ -1,0 +1,87 @@
+/*ESTILOS CSS DEL EJERCICIO 044*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #383838;
+}
+header{
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1{
+    margin: 0;
+ }
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ID*/
+#inicio{
+    background-image: url(Imágenes/banner_diseño_interior.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+}
+#inicio h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.estancias{
+    padding: 20px;
+}
+.estancias article{
+    background-color: #ededed;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    display: table;
+}
+.estancias img{
+    width: 50%;
+    border-radius: 5px;
+}
+.left{
+    float: left;
+    margin-right: 20px;
+}
+.right{
+    float: right;
+    margin-left: 20px;
+}
+.center{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #2b2b2b;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+}
+/*ESTILOS EN FOOTER*/

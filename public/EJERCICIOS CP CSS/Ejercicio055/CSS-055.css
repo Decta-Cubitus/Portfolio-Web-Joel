@@ -1,0 +1,143 @@
+/*ESTILOS CSS DEL EJERCICIO 038*/
+
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #242424;
+    color: #d89014;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #d89014;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    margin-right: 20px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    font-style: italic;
+    color: rgb(20,207,145);
+    text-decoration: none;
+}
+main{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(20,207,145);
+    border-radius: 20px;
+}
+main h2, main h3{
+    text-decoration: underline;
+}
+/*ESTILOS EN SECCIONES PRINCIPALES*/
+
+/*ESTILOS EN ID*/
+/*ESTILOS EN ID*/
+
+/*ESTILOS EN CLASS*/
+.modelado img, .impresion img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.modelado img{
+    border: 2px solid #d89014;
+}
+.impresion img{
+    border: 2px solid #d89014;
+}
+.impresion ul li{
+    list-style: square;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(131, 126, 126, 0.808);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(224, 106, 10, 0.018);
+}
+.card{
+    flex: 1 1 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid rgb(250, 138, 2);
+    background-color: rgb(209, 205, 205);
+    border-radius: 5px;
+    text-align: center;
+}
+.card img{
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+.cards h3{
+    color: #242424;
+    text-decoration: underline rgb(250, 138, 2);
+}
+.card:hover{
+    box-shadow: -5px 10px 20px 20px rgba(0,0,0,0.25);
+}
+/*ESTILOS EN CLASS*/
+
+/*ESTILOS EN FOOTER*/
+footer{
+    background-color: #242424;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer section{
+    flex: 30%;
+    margin: 0 10px;
+}
+footer ul a{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.red_social ul li{
+    margin-right: 10px;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer h3{
+    margin-bottom: 10px;
+    color: #d89014;
+}
+footer p{
+    margin-top: 10px;
+    color: #d89014;
+}
+.red_social img{
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+.red_social:hover{
+    transform: scale(1.1);
+}
+/*ESTILOS EN FOOTER*/

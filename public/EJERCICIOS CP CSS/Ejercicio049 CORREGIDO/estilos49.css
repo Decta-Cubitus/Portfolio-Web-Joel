@@ -1,0 +1,113 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0400ff37;
+}
+header{
+    background-color: #272727;
+    color: #fff;
+    padding: 20px;
+}
+header h1{
+    margin: 0 0 20px 0;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header nav ul li{
+    margin-bottom: 10px;    
+}
+header nav ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+}
+header nav ul li a:hover{
+    background-color: #4b22ffc6;
+}
+header nav ul li a.actual{
+    background-color: #2200b7;
+    color: #d0be1e;
+    font-weight: bold;
+}
+.contenido_pescados, .contenido_alimentos{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+#banner_inicio, #banner_productos{
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 125px 0;
+}
+#banner_inicio{
+    background-image: url("./Imagenes/banner_inicio.jpg");    
+}
+#banner_productos{
+    background-image: url("./Imagenes/banner_producto.png");
+}
+.contenido_pescados article, .contenido_alimentos article, #banner_productos article{
+    clear: both;
+    display: table;
+    border: 1px solid #0e0750;
+    width: 80%;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: #f7f7f788;
+    border-radius: 10px;
+}
+.contenido_pescados img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+}
+.contenido_alimentos img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+}
+.contenido_pescados article:hover, .contenido_alimentos article:hover, #banner_productos article:hover{
+    border: 2px solid #0e0750;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.25);
+    background-color: #f7f7f7d0;
+}
+article h3, article p{
+    text-align: center;
+    color: #333;
+}
+.migas_pan ul{
+    padding: 10px 20px;
+    list-style-type: none;
+    background-color: #eee;
+}
+.migas_pan ul li{
+    display: inline;
+}
+.migas_pan ul li+li:before{
+    padding: 10px;
+    color: black;
+    content: "/\00a0";
+}
+.migas_pan ul li a{
+    color: #2200b7;
+}
+.migas_pan ul li a:hover{
+    font-weight: bold;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+

@@ -1,3 +1,3 @@
 #Portfolio-Web-Joel
-![Banner Portfolio](https://github.com/Decta-Cubitus/portafolio-joel-moderno/público/banner4.png)
+![Banner Portfolio](https://github.com/Decta-Cubitus/portfolio-joel-modern/blob/main/public/banner4.png)
 

@@ -144,7 +144,7 @@ export default function Page() {
             </div>
             <div className="flex justify-center md:justify-end">
               <img
-                src="/joel.jpg"
+                src="/JoelCV3.jpg"
                 alt="Retrato de Joel"
                 className="h-48 w-48 rounded-xl border object-cover shadow-sm ring-1 ring-black/5 md:h-64 md:w-64"
               />
